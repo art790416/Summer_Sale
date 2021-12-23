@@ -1,0 +1,204 @@
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.bg {
+  background-size: 1920px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.bg .inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.inner {
+  position: relative;
+}
+
+.news_bg {
+  background-image: url(../img_PC/summer_PC_news.jpg);
+  position: relative;
+}
+
+.news_bg .news_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.news_bg .news_bar .ticker {
+  width: 1920px;
+  -webkit-animation-name: ticker;
+          animation-name: ticker;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+.logo {
+  background-image: url(../img_PC/summer_PC_logo.jpg);
+}
+
+.FV {
+  background-image: url(../img_PC/summer_PC_01.jpg);
+}
+
+.sec_02 {
+  background-image: url(../img_PC/summer_PC_02.jpg);
+}
+
+.sec_02 .splide {
+  width: 80%;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.sec_03 {
+  background-image: url(../img_PC/summer_PC_03.jpg);
+}
+
+.sec_03 .down {
+  width: 22.8%;
+  position: absolute;
+  top: 4%;
+  left: 38%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  -webkit-animation: down 2s infinite;
+          animation: down 2s infinite;
+}
+
+.sec_04 {
+  background-image: url(../img_PC/summer_PC_04.jpg);
+}
+
+.sec_05 {
+  background-image: url(../img_PC/summer_PC_05.jpg);
+}
+
+.sec_06 {
+  background-image: url(../img_PC/summer_PC_06.jpg);
+}
+
+.sec_07 {
+  background-image: url(../img_PC/summer_PC_07.jpg);
+}
+
+.sec_08 {
+  background-image: url(../img_PC/summer_PC_08.jpg);
+}
+
+.sec_09 {
+  background-image: url(../img_PC/summer_PC_09.jpg);
+}
+
+.sec_10 {
+  background-image: url(../img_PC/summer_PC_10.jpg);
+}
+
+.sec_11 {
+  background-image: url(../img_PC/summer_PC_11.jpg);
+}
+
+.sec_12 {
+  background-image: url(../img_PC/summer_PC_12.jpg);
+}
+
+.sec_13 {
+  background-image: url(../img_PC/summer_PC_13.jpg);
+}
+
+.sec_14 {
+  background-image: url(../img_PC/summer_PC_14.jpg);
+}
+
+@media (max-width: 670px) {
+  .news_bg .news_bar .ticker {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 540px) {
+  .news_bg .news_bar .ticker {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 460px) {
+  .news_bg .news_bar .ticker {
+    width: 800px;
+  }
+}
+
+@-webkit-keyframes ticker {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
+@keyframes ticker {
+  0% {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    visibility: visible;
+  }
+  100% {
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+}
+
+@-webkit-keyframes down {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 12px);
+    transform: translate(0, 12px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes down {
+  0% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+  50% {
+    -webkit-transform: translate(0, 12px);
+    transform: translate(0, 12px);
+  }
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
